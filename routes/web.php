@@ -1,6 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
+
+Route::get('/', function () {
+    $places = DB::table('arashiyama')->get(); // arashiyamaテーブルの全データを取得
+    return view('arashiyama.index', ['places' => $places]);
+});
+
 
 /*
 |--------------------------------------------------------------------------
@@ -12,7 +19,3 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
