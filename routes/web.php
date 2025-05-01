@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\ArashiyamaController;
+// タイプでフィルタリングするためのルート
+Route::get('/search', [ArashiyamaController::class, 'search'])->name('arashiyama.search');
+
 
 Route::get('/', function () {
     $places = DB::table('arashiyama')->get(); // arashiyamaテーブルの全データを取得
