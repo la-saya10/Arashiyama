@@ -2,11 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
+use App\Http\Controllers\ArashiyamaController;
 
 Route::get('/', function () {
     $places = DB::table('arashiyama')->get(); // arashiyamaテーブルの全データを取得
     return view('arashiyama.index', ['places' => $places]);
 });
+Route::get('/arashiyama/{arashiyama}', [ArashiyamaController::class, 'show']);
 
 
 /*

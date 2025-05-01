@@ -12,9 +12,12 @@
 
     <ul>
         @foreach ($places as $place)
-        <li>{{ $place->name }}</li>
+        <li>
+            <a href="/arashiyama/{{ $place->id }}">{{ $place->name }}</a>
+        </li>
         @endforeach
     </ul>
 </body>
+
 
 </html>
