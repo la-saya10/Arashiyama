@@ -18,7 +18,7 @@ class ArashiyamaSeeder extends Seeder
 
             'name' => 'eX cafe 京都嵐山店',
             'type' => 'カフェ',
-            'description' => 'おしゃれなカフェでリラックス。',
+            'description' => '古い邸宅を改装した路地裏カフェ',
             'website_url' => 'https://www.instagram.com/excafe_official/',
         ]);
         DB::table('arashiyama')->insert([
@@ -108,7 +108,7 @@ class ArashiyamaSeeder extends Seeder
         DB::table('arashiyama')->insert([
             'name' => 'まめもとのたいやき',
             'type' => '食べ歩き',
-            'description' => '',
+            'description' => '賞味期限1分のあんバターたい焼きが人気',
             'website_url' => 'https://mamemono.com/',
         ]);
         DB::table('arashiyama')->insert([
@@ -120,7 +120,7 @@ class ArashiyamaSeeder extends Seeder
         DB::table('arashiyama')->insert([
             'name' => 'ARINCO',
             'type' => '食べ歩き',
-            'description' => '',
+            'description' => '京抹茶クレープの専門店',
             'website_url' => 'https://arincoroll.jp/',
         ]);
         DB::table('arashiyama')->insert([
@@ -177,13 +177,13 @@ class ArashiyamaSeeder extends Seeder
 
             'name' => '渡月橋',
             'type' => '観光',
-            'description' => '',
+            'description' => '嵯峨野と嵐山を隔てて流れる桂川に架かる橋',
             'website_url' => 'https://ja.kyoto.travel/tourism/single01.php?category_id=8&tourism_id=2682',
         ]);
         DB::table('arashiyama')->insert([
             'name' => '嵐山モンキーパークいわたやま',
             'type' => '観光',
-            'description' => '',
+            'description' => '餌付けされた約120頭の野生のニホンザルが施設一帯に自由に滞留しており、間近に観察できる',
             'website_url' => 'http://www.monkeypark.jp/',
         ]);
         DB::table('arashiyama')->insert([
@@ -213,7 +213,7 @@ class ArashiyamaSeeder extends Seeder
         DB::table('arashiyama')->insert([
             'name' => '保津川下り',
             'type' => '観光',
-            'description' => '',
+            'description' => '亀岡-嵐山間16キロの保津峡（桂川）の急流を約2時間かけて舟下りする',
             'website_url' => 'https://www.hozugawakudari.jp/',
         ]);
         DB::table('arashiyama')->insert([
@@ -233,13 +233,13 @@ class ArashiyamaSeeder extends Seeder
 
             'name' => 'トイレ',
             'type' => '施設・サービス',
-            'description' => '',
+            'description' => '嵐山昇龍苑2階と嵐電嵐山駅構内にある',
             'website_url' => '',
         ]);
         DB::table('arashiyama')->insert([
             'name' => '外貨両替',
             'type' => '施設・サービス',
-            'description' => '',
+            'description' => '嵐電嵐山駅構内',
             'website_url' => '',
         ]);
         DB::table('arashiyama')->insert([
@@ -278,21 +278,15 @@ class ArashiyamaSeeder extends Seeder
             'description' => '',
             'website_url' => 'https://www.ebisuya.com/branch/arashiyama/',
         ]);
-
-
-
-
-
-
         DB::table('arashiyama')->insert([
             'name' => '嵐湯',
-            'type' => '足湯',
-            'description' => '',
-            'website_url' => 'https://www.arashiyu.jp/',
+            'type' => '施設・サービス',
+            'description' => '五感全てが満足するような癒やしの体験を提供',
+            'website_url' => 'https://www.arashiyu.jp/arashiyama/',
         ]);
         DB::table('arashiyama')->insert([
             'name' => '嵐山温泉 駅の足湯',
-            'type' => '足湯',
+            'type' => '施設・サービス',
             'description' => '',
             'website_url' => 'https://www.kyotoarashiyama.jp/',
         ]);
