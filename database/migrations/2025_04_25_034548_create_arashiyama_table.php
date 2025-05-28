@@ -18,6 +18,8 @@ return new class extends Migration
             $table->text('description')->nullable();                    // 情報
             $table->string('website_url')->nullable();      // 公式サイトURL
             $table->timestamps();
+            $table->string('lat')->nullable();
+            $table->string('lng')->nullable();
         });
     }
 

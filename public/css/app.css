@@ -1,0 +1,59 @@
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "メイリオ",
+        sans-serif;
+    background-color: #fefaf6; /* 和紙風の淡いベージュ */
+    color: #2e2e2e;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #6a4c3b; /* こげ茶 */
+    border-bottom: 2px solid #c9a063; /* 金茶色 */
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #5a7d57; /* 抹茶色 */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #9c4a38; /* 梅色 */
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #4e463f; /* 墨色 */
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+    border: 2px solid #c9a063;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(80, 60, 40, 0.2);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* ボタン風リンク（戻る） */
+a[href="/"] {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #c9a063; /* 金茶色 */
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+a[href="/"]:hover {
+    background-color: #b38c50;
+}
