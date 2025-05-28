@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>嵐山マップ</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +20,6 @@
             <option value="お土産">お土産</option>
             <option value="施設・サービス">施設・サービス</option>
 
-            <!-- 必要に応じて他のタイプも追加 -->
 
         </select>
         <button type="submit">検索</button>
